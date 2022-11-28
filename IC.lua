@@ -194,7 +194,8 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "IC v" .. currentVersion
+Title.TextXAlignment = Enum.TextXAlignment.0
+Title.Text = "  IC v" .. currentVersion
 
 do
 	local emoji = ({
