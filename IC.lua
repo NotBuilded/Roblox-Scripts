@@ -16,7 +16,7 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
-currentVersion = '1.0'
+currentVersion = '1'
 
 Players = game:GetService("Players")
 
@@ -208,7 +208,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "Infinite Yield FE v" .. currentVersion
+Title.Text = "IC v" .. currentVersion
 
 do
 	local emoji = ({
