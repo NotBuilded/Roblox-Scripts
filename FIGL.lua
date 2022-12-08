@@ -19,6 +19,23 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 			Icon = "",
 			PremiumOnly = false
 		})
+
+		local Section = Tab3:AddSection({
+			Name = "Time"
+		})
+
+		Tab3:AddSlider({
+	Name = "Time",
+	Min = 0,
+	Max = 24,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "bananas",
+	Callback = function(Value)
+		game.Lighting.TimeOfDay = Value.."00:00"
+	end    
+})
 	
 		Tab3:AddButton({
 			Name = "Leave The Game",
