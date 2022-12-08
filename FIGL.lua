@@ -3,19 +3,19 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 	
 	
 		local Tab = Window:MakeTab({
-			Name = "Tab 1",
-			Icon = "rbxassetid://11347112419",
+			Name = "💀  Home",
+			Icon = "",
 			PremiumOnly = false
 		})
 	
 		local Tab2 = Window:MakeTab({
-			Name = "Tab 2",
+			Name = "👍  Others",
 			Icon = "rbxassetid://4483345998",
 			PremiumOnly = false
 		})
 	
 		local Tab3 = Window:MakeTab({
-			Name = "Tab 3",
+			Name = "👋  Client",
 			Icon = "rbxassetid://4483345998",
 			PremiumOnly = false
 		})
