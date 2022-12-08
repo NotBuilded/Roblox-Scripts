@@ -25,10 +25,10 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 		})
 
 		Tab3:AddSlider({
-	Name = "Time",
+	Name = "Time Settings",
 	Min = 0,
-	Max = 24,
-	Default = 5,
+	Max = 5,
+	Default = 0,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
 	ValueName = "bananas",
