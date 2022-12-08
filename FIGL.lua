@@ -4,7 +4,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 	
 		local Tab = Window:MakeTab({
 			Name = "Tab 1",
-			Icon = "rbxassetid://4483345998",
+			Icon = "rbxassetid://11347112419",
 			PremiumOnly = false
 		})
 	
