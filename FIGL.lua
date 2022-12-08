@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-		local Window = OrionLib:MakeWindow({Name = ""..game.Name.."", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
+		local Window = OrionLib:MakeWindow({Name = "Not Patched", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
 	
 	
 		local Tab = Window:MakeTab({
@@ -36,7 +36,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 				game.Lighting.TimeOfDay = Value.."00:00"
 			end    
 		})
-		local Section = Tab3:AddSection({
+		local Sectionhh = Tab3:AddSection({
 			Name = "Client"
 		})
 		Tab3:AddButton({
