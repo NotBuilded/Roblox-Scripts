@@ -31,7 +31,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 			Default = 0,
 			Color = Color3.fromRGB(255,255,255),
 			Increment = 1,
-			ValueName = "bananas",
+			ValueName = "Day/Night",
 			Callback = function(Value)
 				game.Lighting.TimeOfDay = Value.."00:00"
 			end    
@@ -227,7 +227,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 			Default = 192,
 			Color = Color3.fromRGB(255,255,255),
 			Increment = 1,
-			ValueName = "bananas",
+			ValueName = "Power",
 			Callback = function(Value)
 				workspace.Gravity = Value
 			end    
@@ -240,7 +240,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 			Default = 16,
 			Color = Color3.fromRGB(255,255,255),
 			Increment = 1,
-			ValueName = "bananas",
+			ValueName = "SpeedPower",
 			Callback = function(Value)
 				game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
 			end    
@@ -252,7 +252,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 			Default = 50,
 			Color = Color3.fromRGB(255,255,255),
 			Increment = 1,
-			ValueName = "bananas",
+			ValueName = "Lebron James",
 			Callback = function(Value)
 				game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
 			end    
